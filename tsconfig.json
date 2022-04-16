@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "ES6",
+    "target": "ES5",
+    "sourceMap": true,
+    "outDir": "./public",
+    "allowSyntheticDefaultImports": true,
+    "useDefineForClassFields": true,
+    "moduleResolution": "Node"
+  },
+  "exclude": ["./node_modules", "src/server"],
+  "include": ["./src/client/*"]
+}

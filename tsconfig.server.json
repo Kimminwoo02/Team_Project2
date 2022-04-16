@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES5",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "src/server/dist"
+  },
+  "exclude": ["node_modules", "src/client"],
+  "include": ["src/server/**/*.ts"]
+}
