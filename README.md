@@ -1,7 +1,6 @@
-# jumunmoa
+# exerciseReservation
 
-주문모아
-
+리액트 프로젝트
 ## 🚀 실행?
 
 Web Express 서버와 React.js 개발용 dev server를 2개를 같이 띄우고 작업
