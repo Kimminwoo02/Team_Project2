@@ -34,5 +34,5 @@ app.get('*', (_, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Jumunmoa app server listening on port:${PORT}`);
+  console.log(`exerciseReservation app server listening on port:${PORT}`);
 });

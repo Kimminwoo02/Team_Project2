@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAppSelector } from '../hooks/redux';
 import { logIn, selectAuth } from '../features/auth/authSlice';
 import SocialLink from '../components/SocialLink';
+import '../style/login.scss';
 
 const Container = styled.div`
   display: flex;
@@ -22,6 +23,8 @@ const Container = styled.div`
     margin-top: 20px;
   }
 `;
+
+
 
 function Login() {
   const navigate = useNavigate();
@@ -45,7 +48,7 @@ function Login() {
   return (
     <Container>
       <h1>주문모아</h1>
-      <div>
+      <div className='sns'>
         <SocialLink title="구글 로그인" social="google" />
         <SocialLink title="카카오 로그인" social="kakao" />
         <SocialLink title="네이버 로그인" social="naver" />
