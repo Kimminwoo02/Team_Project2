@@ -40,7 +40,7 @@ function Home() {
               dispatcher(fetchLogOut());
             }}
           >
-          asdfagaga
+          
           </button>
         </>
       )}
