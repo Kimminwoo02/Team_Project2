@@ -40,7 +40,7 @@ function Home() {
               dispatcher(fetchLogOut());
             }}
           >
-            로그아웃
+          
           </button>
         </>
       )}
